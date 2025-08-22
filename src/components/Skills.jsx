@@ -8,8 +8,8 @@ import { SiSpringboot, SiHibernate, SiMysql } from "react-icons/si";
 import { FaDatabase } from "react-icons/fa";
 
 // Tools & IDEs
-import { FaGitAlt, FaGithub, FaDocker } from "react-icons/fa";
-import { SiPostman, SiEclipseide, SiIntellijidea } from "react-icons/si";
+import { FaGitAlt, FaGithub } from "react-icons/fa";
+import { SiEclipseide, SiIntellijidea } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 //Soft Skills
 import { FaBrain, FaUsers, FaClock, FaComments } from "react-icons/fa";

@@ -1,6 +1,8 @@
 import profile from  '../../public/profile.png'
-import { FaLinkedin, FaWhatsapp, FaTelegram, FaHtml5, FaCss3Alt, FaReact, FaBootstrap, FaJava } from "react-icons/fa";
-import { SiGmail, SiSpringboot, SiHibernate, SiMysql } from "react-icons/si";
+import { FaLinkedinIn, FaWhatsapp, FaTelegram } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaBootstrap, FaJava } from "react-icons/fa";
+import { SiSpringboot, SiHibernate, SiMysql } from "react-icons/si";
 import { ReactTyped } from 'react-typed';
 const Home = () => {
   return (
@@ -15,7 +17,7 @@ const Home = () => {
                         <div className="">
                             <span className='fw-bold py-5'>Available on</span>
                             <div className="d-flex">
-                                <div className="mx-2"><FaLinkedin size={20} color="#0A66C2" /></div>
+                                <div className="mx-2"><FaLinkedinIn size={20} color="#0A66C2" /></div>
                                 <div className="mx-2"><FaWhatsapp size={20} color="#25D366" /></div>
                                 <div className="mx-2"><SiGmail size={20} color="#EA4335" /></div>
                                 <div className="mx-2"><FaTelegram size={20} color="#0088cc" /></div>
