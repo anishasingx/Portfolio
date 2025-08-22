@@ -6,7 +6,7 @@ import Project from "./components/Project"
 import Skills from "./components/Skills"
 import Training from "./components/Training"
 import Experience from "./components/Experience"
-import Intrest from "./components/Intrest"
+import Interest from "./components/Interest"
 import Portfolio from "./components/Portfolio"
 import Testimonal from "./components/Testimonal"
 import Contact from "./components/Contact"
@@ -27,7 +27,7 @@ const App = () => {
         <Internship></Internship>
         <Project></Project>
         <Experience></Experience>
-        <Intrest></Intrest>
+        <Interest></Interest>
         <Portfolio></Portfolio>
         <Testimonal></Testimonal>
         <Contact></Contact>
