@@ -57,7 +57,7 @@ const Portfolio = () => {
       <div className="display-6 fw-bold my-3 bg-success text-white p-2">📂 Portfolio</div>
           <div className='row justify-content-evenly'>
         {portfolio.map((item,index) => (
-            <div className="col-6 col-lg-3 col-md-4 mb-2">
+            <div key={index} className="col-6 col-lg-3 col-md-4 mb-2">
               <div className='card p-2 text-center' style={{fontSize:'.8rem', maxHeight:400, minHeight:400}}>
                 <img src={item.image} className='img-fluid' />
                  <div className="card-body">

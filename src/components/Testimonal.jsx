@@ -60,9 +60,12 @@ const Testimonal = () => {
       <div className="carousel-indicators">
         {
           testimonials.map((item,index)=>(
+            <div key={index}>
             index==0
             ?<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to={index} className="active"></button>
             :<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to={index}></button>
+            </div>
+            
           ))
         }
       </div>

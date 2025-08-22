@@ -12,32 +12,32 @@ const About = () => {
         <div>
             <div className="container py-3">
                 <table className="table table-bordered text-center table-responsive">
-            
-                    <tr>
-                        <td className=" col-6 col-md-3 p-1 fw-bold bg-body-secondary">First Name - </td>
-                        <td className=' col-6 col-md-3 p-1 text-secondary'>Anisha</td>
-                        <td className="  col-6 col-md-3 p-1 fw-bold bg-body-secondary">Phone - </td> 
-                        <td className=' p-3 text-secondary'>9102881984</td>
-                    </tr>
-                    <tr>
-                        <td className="  col-6 col-md-3 p-1 fw-bold bg-body-secondary">Last Name -</td>
-                        <td className='  col-6 col-md-3 p-1 text-secondary'>Kumari</td>
-                        <td className=" col-6 col-md-3 p-1 fw-bold bg-body-secondary">Email - </td>
-                        <td className='  col-6 col-md-3 p-1 text-secondary'>anishasingh5666@gmail.com</td>
-                    </tr>
-                    <tr>
-                        <td className=" col-6 col-md-3 p-1 fw-bold bg-body-secondary">Date Of Birth - </td>
-                        <td className='  col-6 col-md-3 p-1 text-secondary'>12 july 2005</td>
-                        <td className=" col-6 col-md-3 p-1 fw-bold bg-body-secondary">Address - </td>
-                        <td className='  col-6 col-md-3 p-1text-secondary'>Kathitand , Ratu, Ranchi, Jharkhand-835222</td>
-                    </tr>
-                    <tr>
-                        <td className=" col-6 col-md-3 p-1 fw-bold bg-body-secondary">Nationality -</td>
-                        <td className=' col-6 col-md-3 p-1 text-secondary'>Indian</td>
-                        <td className="  col-6 col-md-3 p-1 fw-bold bg-body-secondary">Language - </td>
-                        <td className=' col-6 col-md-3 p-1 text-secondary'>English, Hindi</td>
-                    </tr>
-
+                    <tbody>
+                        <tr>
+                            <td className=" col-6 col-md-3 p-1 fw-bold bg-body-secondary">First Name - </td>
+                            <td className=' col-6 col-md-3 p-1 text-secondary'>Anisha</td>
+                            <td className="  col-6 col-md-3 p-1 fw-bold bg-body-secondary">Phone - </td> 
+                            <td className=' p-3 text-secondary'>9102881984</td>
+                        </tr>
+                        <tr>
+                            <td className="  col-6 col-md-3 p-1 fw-bold bg-body-secondary">Last Name -</td>
+                            <td className='  col-6 col-md-3 p-1 text-secondary'>Kumari</td>
+                            <td className=" col-6 col-md-3 p-1 fw-bold bg-body-secondary">Email - </td>
+                            <td className='  col-6 col-md-3 p-1 text-secondary'>anishasingh5666@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td className=" col-6 col-md-3 p-1 fw-bold bg-body-secondary">Date Of Birth - </td>
+                            <td className='  col-6 col-md-3 p-1 text-secondary'>12 july 2005</td>
+                            <td className=" col-6 col-md-3 p-1 fw-bold bg-body-secondary">Address - </td>
+                            <td className='  col-6 col-md-3 p-1text-secondary'>Kathitand , Ratu, Ranchi, Jharkhand-835222</td>
+                        </tr>
+                        <tr>
+                            <td className=" col-6 col-md-3 p-1 fw-bold bg-body-secondary">Nationality -</td>
+                            <td className=' col-6 col-md-3 p-1 text-secondary'>Indian</td>
+                            <td className="  col-6 col-md-3 p-1 fw-bold bg-body-secondary">Language - </td>
+                            <td className=' col-6 col-md-3 p-1 text-secondary'>English, Hindi</td>
+                        </tr>
+                    </tbody>
                 </table>
             </div>
 

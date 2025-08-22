@@ -45,7 +45,7 @@ const Experience = () => {
         {
           experiences.map((data,index)=>
           (
-            <div className="col-6 mb-2" style={{fontSize:'.8rem'}}>
+            <div key={index} className="col-6 mb-2" style={{fontSize:'.8rem'}}>
             <div className="card border-primary">     
               <h5 className='card-header text-white bg-primary'>{data.year}</h5>
                <div className="card-body">
