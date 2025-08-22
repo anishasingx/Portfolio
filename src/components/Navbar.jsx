@@ -1,4 +1,4 @@
-import pic from '../../public/image.png'
+import pic from '../../public/profile.png'
 import {Link} from 'react-scroll'
 const Navbar = () => {
   return (
