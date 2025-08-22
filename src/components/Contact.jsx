@@ -1,4 +1,4 @@
-import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaGlobe } from "react-icons/fa";
+import { FaMapMarkedAlt, FaPhoneAlt, FaEnvelope, FaGlobe } from "react-icons/fa";
 import { useForm } from "react-hook-form"
 import axios from "axios";
 import toast from "react-hot-toast";
@@ -56,7 +56,7 @@ const Contact = () => {
 
               <ul className='list-unstyled fs-5'>
                 <li className='mb-4 d-flex align-items-center'>
-                  <FaMapMarkerAlt className="text-primary fs-4 me-2" />
+                  <FaMapMarkedAlt className="text-primary fs-4 me-2" />
                   Patna, Bihar, India
                 </li>
 
@@ -83,11 +83,3 @@ const Contact = () => {
 }
 
 export default Contact
-
-
-
-//  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum illo aliquid recusandae fuga, at totam sunt rerum rem atque tempore.</p>
-//             <p><i class="fas fa-map-marker-alt text-primary me-2"></i>Kathitand , Govind Nagar , Ratu road ,ranchi Jharkhand 835222</p>
-//             <p><i class="fas fa-phone text-primary me-2"></i> +91 8102881984</p>
-//             <p><i class="fas fa-envelope text-primary me-2"></i> Anishasingh5666@gmail.com</p>
-//             <p><i class="fas fa-globe text-primary me-2"></i> www.anishaDveloper.com</p>
