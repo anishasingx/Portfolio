@@ -1,5 +1,5 @@
-import React from 'react'
-import { FaMusic, FaCamera, FaLaptopCode, FaTableTennis, FaFilm, FaPlane } from "react-icons/fa";
+import { FaMusic, FaCamera, FaLaptopCode, FaPlane, FaFilm } from 'react-icons/fa';
+import { GiTennisRacket } from 'react-icons/gi';
 
 const Intrest = () => {
   return (
@@ -22,7 +22,7 @@ const Intrest = () => {
              <p>Programming</p>
           </div>
           <div className="col-4 p-4 " >
-             <FaTableTennis  className='fs-1 mb-3'/>
+             <GiTennisRacket  className='fs-1 mb-3'/>
              <p>Badminton</p>
           </div>
           <div className="col-4 p-4  " >
